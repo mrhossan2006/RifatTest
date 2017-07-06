@@ -21,7 +21,7 @@ public class chase {
 	 driver.manage().deleteAllCookies();
 	 driver.manage().window().maximize();
 	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	 String AdvPresnt = driver.findElement(By.xpath(".//*[contains(@id,'DA_')]")).getText();//dinamic page
+	 String AdvPresnt = driver.findElement(By.xpath(".//*[contains(@id,'DA_')]")).getText();//dynamic page
 	 System.out.println(AdvPresnt);
 	 driver.navigate().refresh();
 	 String AdvPresnt1 = driver.findElement(By.xpath(".//*[contains(@id,'DA_')]")).getText();
