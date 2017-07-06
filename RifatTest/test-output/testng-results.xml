@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37304" started-at="2017-07-06T01:09:56Z" finished-at="2017-07-06T01:10:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37304" started-at="2017-07-06T01:09:56Z" finished-at="2017-07-06T01:10:34Z">
+      <class name="RifatTest.RifatTest.chase">
+        <test-method status="PASS" signature="ChaseBank()[pri:0, instance:RifatTest.RifatTest.chase@6d4b1c02]" name="ChaseBank" duration-ms="37288" started-at="2017-07-05T21:09:56Z" finished-at="2017-07-05T21:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChaseBank -->
+      </class> <!-- RifatTest.RifatTest.chase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
