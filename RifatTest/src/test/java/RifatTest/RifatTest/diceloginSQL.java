@@ -74,7 +74,7 @@ public class diceloginSQL {
 			 System.out.println("Image not displyed");
 		 }
 		 else{
-			 System.out.println("Image displayed is: Dell");
+			 System.out.println("Image displayed is: Dell")
 		 }
 	}
 	
