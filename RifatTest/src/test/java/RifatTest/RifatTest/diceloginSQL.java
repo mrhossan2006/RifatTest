@@ -24,9 +24,9 @@ public class diceloginSQL {
 	@Test
 	public void dice() throws SQLException, Exception {
 		ChromeDriverManager.getInstance().setup();
-		 WebDriver driver = new ChromeDriver();
+		 WebDriver driver = ChromeDriver();
 		 //try{
-		 driver.get("http://www.dice.com/");
+		 driver.get("http://www.dice.com/")
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 driver.manage().window().maximize();
